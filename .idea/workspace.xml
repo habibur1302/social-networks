@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b07aa84c-8791-4859-ba10-a25e8e4967ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/FollowPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/FollowPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/FollowPerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/FollowPerson.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+            <state relative-caret-position="213">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#40#59#0#PHP" expanded="true" />
               </folding>
@@ -302,6 +299,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -342,12 +340,12 @@
       <option name="presentableId" value="Default" />
       <updated>1652976973926</updated>
       <workItem from="1652976975657" duration="4212000" />
-      <workItem from="1653054129868" duration="5129000" />
+      <workItem from="1653054129868" duration="5948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9341000" />
+    <option name="totallyTimeSpent" value="10160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="25" width="1433" height="798" extended-state="0" />
@@ -452,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+        <state relative-caret-position="213">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
           </folding>

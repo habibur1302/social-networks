@@ -75,7 +75,6 @@ class PostController extends Controller
        $followPersonPost = FollowPerson::with('user:id,name','post:id,person_id,page_id,content')->where('follower_id', $user_id)->get();
        $followPagePost = FollowPage::with('page:id,name','post:id,person_id,page_id,content')->where('follower_id', $user_id)->get();
        $contents = array_merge($followPersonPost->toArray(), $followPagePost->toArray());
-       //dd($contents);
        if( !empty($contents)) {
            //dd($contents);
            foreach ($contents as $content) {
